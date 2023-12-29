@@ -1,11 +1,17 @@
-.App {
-  text-align: center;
+.custom-bg {
+  background-image: url('/public/images/bg-header-desktop.svg');
+  background-size: cover;
+  background-position: center;
+  /* Additional background properties can be added here */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-hsl {
+  background-color: hsl(180, 29%, 50%);
+  /* background-color: black; */
 }
+/* .card {
+  background-color: hsl(180, 52%, 96%);
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,26 +19,4 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
