@@ -21,7 +21,6 @@ export default function Card() {
 
   // Handler for updating search query
   const handleSearch = (e) => {
-    console.log([...searchQuery, ...e])
     setShowSearchCard(true)
     setSearchQuery([...searchQuery, ...e])
   }
