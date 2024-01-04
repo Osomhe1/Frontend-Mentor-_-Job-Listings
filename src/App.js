@@ -1,21 +1,15 @@
-// import logo from './logo.svg';
-import './App.css';
-import Card from './components/Card';
-import SearchCard from './components/SearchCard';
+import './App.css'
+import Card from './components/Card'
 
 function App() {
   return (
     <>
-    <div className="custom-bg  h-48 w-full bg-hsl">
-    </div>
-    <SearchCard />
-    <div className="mt-16">
-    
-    <Card  />
-    </div>
+      <div className='custom-bg  h-48 w-full bg-hsl'></div>
+      <div className='mt-16'>
+        <Card />
+      </div>
     </>
-    );
-  }
-  
-  export default App;
-  
+  )
+}
+
+export default App
